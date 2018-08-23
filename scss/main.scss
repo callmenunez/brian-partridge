@@ -1,0 +1,71 @@
+html {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Esteban', serif;
+  height: 100%;
+  background: -moz-linear-gradient(-45deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  body {
+    height: inherit;
+    background: none;
+    color: #888888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    .container {
+      background-color: #ffffff;
+      width: 60vw;
+      // height: 50vh;
+      // margin: 4rem;
+      .bio {
+        padding: 4rem;
+        h1 {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 6rem;
+          margin: 0 0 4rem;
+          line-height: 1;
+          &:after {
+            content:' ';
+            display:block;
+            border:1px solid #888888;
+            width: 20rem;
+            margin-top: 2rem;
+          }
+        }
+        p {
+          font-size: 0.874rem;
+          a {
+            text-decoration: none;
+            position: relative;
+            color: #888888;
+            &::after {
+              border-bottom: 0.5em solid rgba(0, 0, 0, 0.1);
+              content: "";
+              left: 0;
+              margin-top: calc(0.25em / 2 * -1);
+              position: absolute;
+              right: 0;
+              top: 100%;
+            }
+            &:hover {
+              text-decoration: none;
+              &::after {
+                border-bottom: 0.5em solid rgba(255, 255, 0, 1);
+                content: "";
+                left: 0;
+                margin-top: calc(0.25em / 2 * -1);
+                position: absolute;
+                right: 0;
+                top: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/brianpartridge
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://brianpartridge.name
+  * I am brianpartridge (https://keybase.io/brianpartridge) on keybase.
+  * I have a public key with fingerprint EB71 95B1 4313 F900 01DB  073D 3EE1 E8E9 822C B951
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "eb7195b14313f90001db073d3ee1e8e9822cb951",
+            "host": "keybase.io",
+            "key_id": "3ee1e8e9822cb951",
+            "uid": "d63eb84b94a4e471397ed2577d8c0c00",
+            "username": "brianpartridge"
+        },
+        "service": {
+            "hostname": "brianpartridge.name",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1395971885,
+    "expire_in": 157680000,
+    "prev": "b84eb973a04611541e83e711cda5a1a273b9ef0a8e30dd64a06774e8d74ff257",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.1
+Comment: https://keybase.io/crypto
+
+yMHlAnicbZFbSBRfHMd319XFlS6Gt7J9OVixtNqcnZmdmSWDpJ7Ciox6SFnmcnZ3
+KGe2mdl1F7OCP6ZdBENiiS2k0ggsJKp/L4VmRaVLEhteCkPMbvvSQ4JQFp5Z6s2n
+w/n9Pt/v7/ZsVZ7FaR1wXJ+eGURL1rHhP1FLAzVZ3QoEVUoAfys4inJPUFZCSIto
+smIAP0ACAzlagBQJySBHEASUBIIhJRIhiFjEsV6vKHA0BB4QVnVTgW0EXkc1sopj
++BOQJRxdgY/mEpKPRAJLCRzFU4hiIMkxSPLSDCOxIiEShAnqSFP4ZoRpQZN5JcJr
+hiZLIQTaPADnYrKIc625BlbkanJRD4hoqqGK6jEMhA0j4jf1RiJiClqQEPhrFRBk
+RcJLwIIY0nRZVYAfYlI0ZNMbd0hzDGRZ2gNQPCJrKCCbBM34WLwfwiyDYmYPLIUE
+jiF5gvJBSFN4fhIxEIoST/OQ9zKkwKEgwbOIJCTJR/GEj2EoxEoMFQziDeD6Ojqu
+qMCPKxl8CFvqckjhjaiGJx8ZbrRbrE5LQb7NPKPFWbj233EDI46lNdVnbdlNQ1m9
+1HWgPFlaUdKZoB0vtm28mKk/M1Q0c77Nuzj/BbV1uVezILM+/3AyPa1/G/8tZEp2
+PLQ/KbT+vOuuKD1xMj7jqtsbtd370Ojd1/JxYenqVMHm2j7bOvj6mnP/4PDiQNkh
+X/jyrtDoQVjm7qi3Ka/yX57+VLVny/uu/sreTmflm4qpprG69sbBB6k7VTvB+ERc
+755PpzL/X3nXfuN7w9bbXFPlaLrYuHDT+TRJ93OTqfh4IXDFqCPFfuWxIzmbV5vo
+bf6VyL612y+5OzbsvjXXey5dBD2z4bFTfXy2wNXz6L+qBefnCbk79XykfO5r0nF/
++4+eZWDxExk=
+=P9MK
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/brianpartridge
+
+==================================================================

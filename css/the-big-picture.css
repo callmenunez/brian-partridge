@@ -1,0 +1,36 @@
+body {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: none;
+  color: #604e4e;
+  font-family: "AvenirNext-UltraLight", "Helvetical Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Background */
+
+.full {
+  background: url(../img/unsplash-kitsune-3.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Content */
+
+.bubble {
+  padding: 10px 12px 10px 12px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 6px;
+  font-size: 16pt;
+}
+
+.bubble a {
+  color: #b87e50;
+}
+
+.identity {
+  font-size: 20pt;
+  padding-bottom: 6px;
+  text-transform: uppercase;
+}

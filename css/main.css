@@ -1,0 +1,65 @@
+html {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Esteban', serif;
+  height: 100%;
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#00000000',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+  html body {
+    height: inherit;
+    background: none;
+    color: #888888;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0; }
+    html body .container {
+      background-color: #ffffff;
+      width: 60vw; }
+      html body .container .bio {
+        padding: 4rem; }
+        html body .container .bio h1 {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 6rem;
+          margin: 0 0 4rem;
+          line-height: 1; }
+          html body .container .bio h1:after {
+            content: ' ';
+            display: block;
+            border: 1px solid #888888;
+            width: 20rem;
+            margin-top: 2rem; }
+        html body .container .bio p {
+          font-size: 0.874rem; }
+          html body .container .bio p a {
+            text-decoration: none;
+            position: relative;
+            color: #888888; }
+            html body .container .bio p a::after {
+              border-bottom: 0.5em solid rgba(0, 0, 0, 0.1);
+              content: "";
+              left: 0;
+              margin-top: calc(0.25em / 2 * -1);
+              position: absolute;
+              right: 0;
+              top: 100%; }
+            html body .container .bio p a:hover {
+              text-decoration: none; }
+              html body .container .bio p a:hover::after {
+                border-bottom: 0.5em solid yellow;
+                content: "";
+                left: 0;
+                margin-top: calc(0.25em / 2 * -1);
+                position: absolute;
+                right: 0;
+                top: 100%; }

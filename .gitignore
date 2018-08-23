@@ -1,0 +1,7 @@
+# OSX noise
+.DS_Store
+profile
+
+# Misc
+*.bak
+node_modules
