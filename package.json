@@ -1,0 +1,40 @@
+{
+  "name": "brian-partridge",
+  "version": "1.0.0",
+  "description": "brians personal website",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.24.6",
+    "gulp-babel": "^7.0.1",
+    "gulp-coffee": "^3.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.1",
+    "gulp-watch": "^5.0.1",
+    "npm": "^6.4.0",
+    "tilt.js": "^1.2.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-inline-source": "^3.2.0",
+    "gulp-plumber": "^1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davedelanunez/brian-partridge.git"
+  },
+  "author": "David Nunez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davedelanunez/brian-partridge/issues"
+  },
+  "homepage": "https://github.com/davedelanunez/brian-partridge#readme"
+}

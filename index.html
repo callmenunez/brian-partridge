@@ -1,46 +1,40 @@
 <!DOCTYPE html>
-<html class="full" lang="en"><!-- The full page image background will only work if the html has the custom class set to it! Don't delete it! -->
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Brian Partridge's Stuff</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <title>Brian Partridge</title>
 
     <!-- Custom CSS for the 'Full' Template -->
-    <link href="css/the-big-picture.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Esteban" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
   </head>
 
   <body>
-    
-    <div class="container">
-      <div class="row">
-        <div class="col-md-5 col-md-offset-7 col-sm-8 col-sm-offset-4 bubble">
-          <div class="identity"><strong>Brian</strong> Partridge</div>
-          
-          <p><strong>iOS</strong> developer and <strong>UX</strong> designer based in NYC.</p>
-          
-          <p>I'm <strong>focused</strong> on making software that <strong>solves</strong> my <strong>problems</strong>, but if other people like it too, so much the <strong>better</strong>.</p>
-          
-          <p>I've made software for <a href="http://www.emc.com"><strong>EMC</strong></a>, <a href="http://www.vmware.com"><strong>VMware</strong></a>, & <a href="http://www.squareup.com"><strong>Square</strong></a>,
-          plus <a href="http://peartreelabs.com/"><strong>a few things of my own</strong></a>. Sometimes I even <a href="talks.html"><strong>talk</strong></a> about it.</p>
-          
-          <!-- <p>Want to work together? <a href="https://brianpartridge.wufoo.com/forms/contact/"><strong>Get in touch</strong></a>.</p> -->
-          
-          <a href="https://twitter.com/brianpartridge" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @brianpartridge</a>
-          
-          <iframe src="http://ghbtns.com/github-btn.html?user=brianpartridge&type=follow" allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"></iframe>
+    <span data-tilt class="js-tilt">
+      <div class="container">
+        <div class="bio">
+          <h1>Brian Partridge</h1>        
+          <p>iOS developer and UX designer based in NYC.</p>
+          <p>I'm focused  on making software that solves my problems , but if other people like it too, so much the better .</p> 
+          <p>I've made software for <a href="http://www.emc.com">EMC</a>, <a href="http://www.vmware.com">VMware</a>, &amp; <a href="http://www.squareup.com">Square</a>, plus <a href="http://peartreelabs.com/">a few things of my own </a>. Sometimes I even <a href="talks.html">talk</a> about it.</p>            
+          <!-- <a href="https://twitter.com/brianpartridge" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @brianpartridge</a>
+          <iframe src="http://ghbtns.com/github-btn.html?user=brianpartridge&type=follow" allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"></iframe> -->
         </div>
       </div>
-    </div>
+    </span>
     
   <!-- javascript -->
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.js"></script>
+  <script src="js/tilt.jquery.js"></script>
+  <script src="js/custom.js"></script>
+
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
   
   <!-- Google Analytics -->
@@ -54,7 +48,6 @@
     ga('send', 'pageview');
 
   </script>
-
   </body>
 
 </html>
