@@ -1,6 +1,5 @@
 html {
   font-size: 16px;
-  // font-family: 'Montserrat', sans-serif;
   font-family: 'Esteban', serif;
   height: 100%;
   background: -moz-linear-gradient(-45deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
@@ -17,7 +16,7 @@ html {
     margin: 0;
     .container {
       background-color: #ffffff;
-      width: 40vw;
+      min-width: 40vw;
       padding: 4rem 4rem 5rem;
       -webkit-box-shadow: 0px 0px 69px -5px rgba(163,163,163,.5);
       -moz-box-shadow: 0px 0px 69px -5px rgba(163,163,163,.5);
@@ -30,6 +29,7 @@ html {
           max-width: 200px;
           max-height: 200px;
           filter: grayscale(100%);
+          margin-left: 2rem;
         }
         h1 {
           font-family: 'Montserrat', sans-serif;
@@ -108,6 +108,14 @@ html {
           }
         }
       }
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .container {
+      margin: .4rem;
+      width: 100%;
+      height: 100%;
+      overflow: scroll;
     }
   }
 }
