@@ -1,6 +1,5 @@
 html {
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
   font-family: 'Esteban', serif;
   height: 100%;
   /* FF3.6-15 */
@@ -25,41 +24,91 @@ html {
     margin: 0; }
     html body .container {
       background-color: #ffffff;
-      width: 60vw; }
-      html body .container .bio {
-        padding: 4rem; }
-        html body .container .bio h1 {
+      width: 40vw;
+      padding: 4rem 4rem 5rem;
+      -webkit-box-shadow: 0px 0px 69px -5px rgba(163, 163, 163, 0.5);
+      box-shadow: 0px 0px 69px -5px rgba(163, 163, 163, 0.5); }
+      html body .container .img-header {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between; }
+        html body .container .img-header img {
+          border-radius: 100%;
+          max-width: 200px;
+          max-height: 200px;
+          -webkit-filter: grayscale(100%);
+          filter: grayscale(100%); }
+        html body .container .img-header h1 {
           font-family: 'Montserrat', sans-serif;
           font-size: 6rem;
           margin: 0 0 4rem;
           line-height: 1; }
-          html body .container .bio h1:after {
+          html body .container .img-header h1:after {
             content: ' ';
             display: block;
             border: 1px solid #888888;
             width: 20rem;
             margin-top: 2rem; }
-        html body .container .bio p {
-          font-size: 0.874rem; }
-          html body .container .bio p a {
-            text-decoration: none;
-            position: relative;
-            color: #888888; }
-            html body .container .bio p a::after {
-              border-bottom: 0.5em solid rgba(0, 0, 0, 0.1);
+      html body .container .bio p {
+        font-size: 0.874rem; }
+        html body .container .bio p a {
+          text-decoration: none;
+          position: relative;
+          color: #888888; }
+          html body .container .bio p a::after {
+            border-bottom: 0.5em solid rgba(0, 0, 0, 0.1);
+            content: "";
+            left: 0;
+            margin-top: calc(0.25em / 2 * -1);
+            position: absolute;
+            right: 0;
+            top: 100%; }
+          html body .container .bio p a:hover {
+            text-decoration: none; }
+            html body .container .bio p a:hover::after {
+              border-bottom: 0.5em solid yellow;
               content: "";
               left: 0;
               margin-top: calc(0.25em / 2 * -1);
               position: absolute;
               right: 0;
               top: 100%; }
-            html body .container .bio p a:hover {
-              text-decoration: none; }
-              html body .container .bio p a:hover::after {
-                border-bottom: 0.5em solid yellow;
-                content: "";
-                left: 0;
-                margin-top: calc(0.25em / 2 * -1);
-                position: absolute;
-                right: 0;
-                top: 100%; }
+      html body .container .buttons {
+        margin-top: 4rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        html body .container .buttons .custom-btn {
+          font-family: 'Montserrat', sans-serif;
+          border-radius: 4px;
+          background-color: #aaaaaa;
+          color: #fff;
+          padding: .75rem 1.25rem;
+          text-decoration: none;
+          font-size: .8rem;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-direction: row;
+          flex-direction: row;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center; }
+          html body .container .buttons .custom-btn:first-of-type {
+            margin-right: 1rem; }
+            html body .container .buttons .custom-btn:first-of-type:hover {
+              background-color: #00aced; }
+          html body .container .buttons .custom-btn:hover {
+            background-color: #ddd; }
+          html body .container .buttons .custom-btn svg {
+            fill: #fff;
+            max-height: 20px;
+            width: auto;
+            margin-right: .5rem; }
