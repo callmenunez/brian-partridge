@@ -1,6 +1,6 @@
 html {
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  // font-family: 'Montserrat', sans-serif;
   font-family: 'Esteban', serif;
   height: 100%;
   background: -moz-linear-gradient(-45deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
@@ -17,11 +17,20 @@ html {
     margin: 0;
     .container {
       background-color: #ffffff;
-      width: 60vw;
-      // height: 50vh;
-      // margin: 4rem;
-      .bio {
-        padding: 4rem;
+      width: 40vw;
+      padding: 4rem 4rem 5rem;
+      -webkit-box-shadow: 0px 0px 69px -5px rgba(163,163,163,.5);
+      -moz-box-shadow: 0px 0px 69px -5px rgba(163,163,163,.5);
+      box-shadow: 0px 0px 69px -5px rgba(163,163,163,.5);
+      .img-header {
+        display: flex;
+        justify-content: space-between; 
+        img {
+          border-radius: 100%;
+          max-width: 200px;
+          max-height: 200px;
+          filter: grayscale(100%);
+        }
         h1 {
           font-family: 'Montserrat', sans-serif;
           font-size: 6rem;
@@ -35,6 +44,8 @@ html {
             margin-top: 2rem;
           }
         }
+      }
+      .bio {
         p {
           font-size: 0.874rem;
           a {
@@ -62,6 +73,38 @@ html {
                 top: 100%;
               }
             }
+          }
+        }
+      }
+      .buttons {
+        margin-top: 4rem;
+        display: flex;
+        .custom-btn {
+          font-family: 'Montserrat', sans-serif;
+          border-radius: 4px;
+          background-color: #aaaaaa;
+          color: #fff;
+          padding: .75rem 1.25rem;
+          text-decoration: none;
+          font-size: .8rem;
+          flex-direction: column;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          &:first-of-type {
+            margin-right: 1rem;
+            &:hover {
+              background-color: #00aced;
+            }
+          }
+          &:hover {
+            background-color: #ddd;
+          }
+          svg {
+            fill: #fff;
+            max-height: 20px;
+            width: auto;
+            margin-right: .5rem;
           }
         }
       }
