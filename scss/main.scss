@@ -89,7 +89,7 @@ a {
 .link--style:hover {
   text-decoration: none;
   &::after {
-    border-bottom: 0.5em solid rgba(255, 255, 0, 1);
+    border-bottom: 0.5em solid #888888;
     content: "";
     left: 0;
     margin-top: calc(0.25em / 2 * -1);
