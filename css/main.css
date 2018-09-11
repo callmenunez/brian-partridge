@@ -103,7 +103,7 @@ a {
 .link--style:hover {
   text-decoration: none; }
   .link--style:hover::after {
-    border-bottom: 0.5em solid yellow;
+    border-bottom: 0.5em solid #888888;
     content: "";
     left: 0;
     margin-top: calc(0.25em / 2 * -1);
